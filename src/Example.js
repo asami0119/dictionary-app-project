@@ -1,14 +1,16 @@
 import React from "react";
 
 export default function Example(props) {
+  console.log(props.example);
   if (props.example && props.example.length > 0) {
     return (
-      <div className="Example">
+      <div>
         {props.examples.map(function (example, index) {
           return (
-            <ul key={index}>
-              <li>{example}</li>
-            </ul>
+            <div>
+              <strong>Example : </strong>
+              <span key={index}>{example}</span>
+            </div>
           );
         })}
       </div>
