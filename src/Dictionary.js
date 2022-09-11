@@ -35,10 +35,10 @@ export default function Dictionary(props) {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="form">
           <div className="d-grid col-md-5 mx-auto">
             <label for="exampleFormControlInput" className="form-label">
-              Search a word
+              Make your vacabulary more colorful.
             </label>
             <input
               type="search"

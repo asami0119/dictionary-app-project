@@ -1,5 +1,10 @@
-img {
-  display: block;
-  max-width: 20px;
-  margin: 7px 14px;
+.Phonetic a {
+  text-decoration: none;
+  color: darkmagenta;
+  font-size: larger;
+  font-weight: 600;
+}
+.Phonetic a:hover {
+  font-weight: bold;
+  color: darksalmon;
 }

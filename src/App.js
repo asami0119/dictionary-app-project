@@ -1,13 +1,24 @@
 import logo from "./image/SheCodes-logo.png";
+import bg from "./image/bg.jpeg";
 import Dictionary from "./Dictionary";
 
 import "./App.css";
 
 export default function App() {
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        backgroundImage: `url(${bg})`,
+        backgroundSize: `cover`,
+        backgroundPosition: `center`,
+        backgroundRepeat: `no-repeat`,
+        width: `100vw`,
+        height: `100vh`,
+      }}
+    >
       <div className="containter">
-        <header className="App-header">
+        <header className="App-header m-0">
           <img src={logo} className="SheCodes-logo img-fluid" alt="logo" />
         </header>
         <main>

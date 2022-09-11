@@ -1,0 +1,30 @@
+section {
+  border: 1px solid;
+  color: ;
+}
+.form {
+  margin-bottom: 100px;
+}
+
+.form-label {
+  margin-left: 330px;
+  color: indianred;
+  font-weight: 900;
+  font-family: fantasy;
+}
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  border: 1px solid #342f51;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.definition h1 {
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
