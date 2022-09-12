@@ -1,0 +1,6 @@
+.Photos img {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 200px;
+  margin: 20px;
+}
