@@ -1,15 +1,15 @@
 section {
   border: 1px solid;
-  color: ;
 }
 .form {
   margin-bottom: 100px;
 }
 
 .form-label {
-  margin-left: 330px;
+  margin-left: 300px;
   color: indianred;
   font-weight: 900;
+  font-size: large;
   font-family: fantasy;
 }
 

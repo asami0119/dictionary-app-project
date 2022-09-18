@@ -25,7 +25,7 @@ export default function App() {
           <Dictionary defaultKeyword="flower" />
         </main>
         <footer className="text-center">
-          <small>
+          <p>
             This project was coded by{" "}
             <a
               href="https://www.linkedin.com/in/asami-uehara-704999223/"
@@ -51,7 +51,7 @@ export default function App() {
               hosted on Netlify
             </a>
             .
-          </small>
+          </p>
         </footer>
       </div>
     </div>

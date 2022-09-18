@@ -17,15 +17,19 @@
 
 footer {
   margin: 30px 0;
+  font-weight: 400;
+  color: navy;
 }
 
 footer a {
   text-decoration: none;
-  color: orangered;
+  color: mediumvioletred;
+  font-weight: 800;
 }
 
 footer a:hover {
   cursor: pointer;
-  color: darkmagenta;
-  font-weight: 700;
+  color: darkslateblue;
+  font-weight: 900;
+  text-decoration: underline;
 }

@@ -7,7 +7,7 @@ export default function Example(props) {
     return (
       <div className="Example">
         <strong>Example : </strong>
-        <span>{props.example}</span>
+        {props.example}
       </div>
     );
   } else {
